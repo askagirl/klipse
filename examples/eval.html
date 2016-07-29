@@ -24,11 +24,11 @@
 <script>
 console.log(window.cljs);
 console.log(window.klipse);
-function eval-clj(exp) {
+function eval_clj(exp) {
   cljs.core.second(window.klipse.compiler.eval(exp)).toString()
 }
 
-console.log("(map inc [1 2 3]):" , eval-clj("(map inc [1 2 3])"));
+console.log("(map inc [1 2 3]):" , eval_clj("(map inc [1 2 3])"));
 </script>
 </body>
 
