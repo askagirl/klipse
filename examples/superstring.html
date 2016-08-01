@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css">
+</head>
+
+<body>
+
+First let's load <b>superstring</b>
+
+<div class="clojure" data-external-libs="https://raw.githubusercontent.com/expez/superstring/master/src">
+  (ns my.str
+  (:require [superstring.core :as str]))
+</div>
+
+Basic usage:
+
+<div class="clojure">
+ (str/includes? "deVeloper dsadsa" "developer" :ignore-case)
+    
+</div>
+<br/>
+
+
+    
+    
+<script>
+    window.klipse_settings = {
+        selector: '.clojure'
+    };
+</script>
+<script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+</body>
+
+</html>
