@@ -49,6 +49,32 @@ First let's load <b>superstring</b> from the superstring github repository (It m
 (str/swap-case "AbCdEFgh")
 </div>
 
+<h2> includes?</h2>
+<div class="clojure">
+(str/includes? "Developer" "developer" :ignore-case)
+</div>
+
+<div class="clojure">
+(str/includes? "Developer" "developer")
+</div>
+<h2> includes-all?</h2>
+<div class="clojure">
+(str/includes-all? "Java and XML and Clojure" ["java" "xml"] :ignore-case)
+</div>
+
+<div class="clojure">
+(str/includes-all? "Java and XML and Clojure"  ["java" "xml"])
+</div>
+
+<h2> includes-any?</h2>
+<div class="clojure">
+(str/includes-any? "Java and Clojure" ["java" "xml"] :ignore-case)
+</div>
+
+<div class="clojure">
+(str/includes-any? "Java and XML and Clojure"  ["java" "xml"])
+</div>
+
 <script>
     window.klipse_settings = {
         selector: '.clojure'
