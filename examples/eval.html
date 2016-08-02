@@ -27,9 +27,7 @@
 <script>
 console.log(window.cljs);
 console.log(window.klipse);
-function eval_clj(exp) {
-  return cljs.core.second(window.klipse.compiler.eval(exp)).toString();
-}
+ eval_clj = window.klipse.compiler.str_eval;
 
 console.log("(map inc [1 2 3]):" , eval_clj("(map inc [1 2 3])"));
 </script>
