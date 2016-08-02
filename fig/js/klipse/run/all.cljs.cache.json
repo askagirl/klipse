@@ -1,1 +1,0 @@
-["^ ","~:name","~$klipse.run.all","~:doc",null,"~:excludes",["~#set",[]],"~:use-macros",null,"~:require-macros",null,"~:uses",null,"~:requires",["^ ","~$klipse.run.app","^9","~$klipse.run.plugin","^:"],"~:imports",null]

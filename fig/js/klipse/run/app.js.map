@@ -1,1 +1,0 @@
-{"version":3,"file":"\/Users\/yehonathan.sharvit\/prj\/klipse\/resources\/public\/fig\/js\/klipse\/run\/app.js","sources":["app.cljs?rel=1465544479065"],"lineCount":9,"mappings":";AAAA;;;;;AAKA,AAACA,0BAAS,oBAAA,pBAACC","names":["klipse.app\/init","goog.dom\/getElement"]}

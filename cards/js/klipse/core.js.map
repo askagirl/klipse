@@ -1,1 +1,0 @@
-{"version":3,"file":"\/Users\/yehonathan.sharvit\/prj\/klipse\/resources\/public\/cards\/js\/klipse\/core.js","sources":["core.cljs?rel=1465542674378"],"lineCount":10,"mappings":";AAAA;;;AAIA,AAACA;AACD,sCAAA,iFAAA,vHAACC;AAED,sBAAA,tBAAKC;AACL,4BAAA,5BAACC,8CAA0BD","names":["cljs.core\/enable-console-print!","gadjett.core\/settings!","klipse.core\/version","cljs.core\/println"]}
